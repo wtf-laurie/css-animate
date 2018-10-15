@@ -1,0 +1,19 @@
+.rotate
+{
+	transition-property: rotate;
+}
+
+.skew
+{
+	transition-property: skew;
+}
+
+.all
+{
+	transition-property: rotate, skew;
+}
+
+@keyframes mymove
+{
+	
+}
