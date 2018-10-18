@@ -1,19 +1,19 @@
-.rotate
+#rotate
 {
-	transition-property: rotate;
+	transform: rotate(50deg);
 }
 
-.skew
+#skew
 {
-	transition-property: skew;
+	transform: skew(30deg, 15deg);
 }
 
-.all
+#all
 {
-	transition-property: rotate, skew;
+	transform: rotate(45deg) skew(15deg) scale(.4, .8);
 }
 
-@keyframes mymove
+@keyframes animate
 {
 	
 }
