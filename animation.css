@@ -1,0 +1,19 @@
+#rotate
+{
+	transform: rotate(50deg);
+}
+
+#skew
+{
+	transform: skew(30deg, 15deg);
+}
+
+#all
+{
+	transform: rotate(45deg) skew(15deg) scale(.4, .8);
+}
+
+@keyframes animate
+{
+	
+}
