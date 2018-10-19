@@ -1,19 +1,55 @@
 #rotate
 {
-	transform: rotate(50deg);
+	transform: rotate(45deg);
+	background-color: #fbd0b6;
 }
 
 #skew
 {
-	transform: skew(30deg, 15deg);
+	transform: skew(52deg);
+	background-color: #f4a9c5;
 }
 
 #all
 {
-	transform: rotate(45deg) skew(15deg) scale(.4, .8);
+	transform: rotate(17deg) skew(38deg);
+	background-color: #d5b2d5;
+}
+
+#animate 
+{
+	animation-name: animate, animatecolor;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	background-color: #9dcaee;
 }
 
 @keyframes animate
 {
-	
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(1080deg);
+	}
+}
+
+@keyframes animatecolor
+{
+	from{
+		background-color: #f4a9c5;
+	}
+	to{
+		background-color: #9dcaee;
+	}
+}
+
+#zoom
+{
+    transition: transform .2s; /* Animation */
+}
+
+#zoom:hover 
+{
+    transform: scale(1.5)
 }
